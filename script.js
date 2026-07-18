@@ -107,7 +107,7 @@ if (proprietorChip) {
   proprietorChip.setAttribute("tabindex", "0");
   proprietorChip.setAttribute("aria-label", "Read about Mahmud Haffeez, proprietor of Maffizz Edify");
   proprietorChip.style.cursor = "pointer";
-  const openProprietorPage = () => { track("maffizz_proprietor_profile"); window.location.href = "proprietor.html"; };
+  const openProprietorPage = () => { track("maffizz_proprietor_profile"); window.location.href = "mahmud-haffeez.html"; };
   proprietorChip.addEventListener("click", openProprietorPage);
   proprietorChip.addEventListener("keydown", event => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openProprietorPage(); } });
 }
